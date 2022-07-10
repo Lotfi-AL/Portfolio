@@ -1,0 +1,109 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* all content is centered vertically and horizontally */
+.landingpage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+/* basic box styling */
+
+.box {
+    border-radius: 3vw 4vw 8vw 2vw;
+    border: 1px solid black;
+    box-shadow: 0 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    margin: 1em;
+    max-width: 60%;
+}
+
+/*Link styling */
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: inherit;
+}
+
+.landingpage h1 {
+    color: #ffc800;
+    text-align: center;
+    text-transform: uppercase;
+}
+.landingpage p {
+    text-align: center;
+}
+.link {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: inherit;
+}
+a:hover {
+    color: #ffc800;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    padding: 2px;
+    margin-bottom: 2px;
+}
+.startLink:hover,
+.startLink:focus {
+    color: white;
+    background-color: brown;
+}
+
+.startLink:active {
+    position: relative;
+    top: 3px;
+}
+/* Credits */
+
+.credits {
+    height: 96px;
+    overflow: hidden;
+    line-height: 44px;
+    color: black;
+}
+
+.credits > .container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 44px;
+    padding: 0 44px;
+    max-width: 100%;
+}
+
+.text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+.list {
+    margin-top: 0;
+    padding-left: 11em;
+    text-align: left;
+    list-style: none;
+
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.item {
+    line-height: 40px;
+    margin: 0;
+}

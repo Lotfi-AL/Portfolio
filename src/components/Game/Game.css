@@ -1,0 +1,7 @@
+canvas {
+    border-top: 1px solid black;
+    width: 100vw;
+    image-rendering: pixelated;
+    position: absolute;
+    bottom: 0;
+}
